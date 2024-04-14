@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css"/>
+        <title>Chapter 6 - JavaScript</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Which colour is the following?</h1>
+            <div class="highlight"><span id="indicator" class="highlight-text">Waiting for script...</span></div>
+
+            <div id="opt-container">
+                <div class="opt" id="choice-1"></div>
+                <div class="opt" id="choice-2"></div>
+                <div class="opt" id="choice-3"></div>
+            </div>
+
+            <div class="highlight" id="reroll-btn"><span class="highlight-text">Reroll</span></div>
+
+            <div id="popup" style="opacity: 0; pointer-events: none;">
+                <div id="popup-box">
+                    <span id="popup-msg">Correct!</span>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

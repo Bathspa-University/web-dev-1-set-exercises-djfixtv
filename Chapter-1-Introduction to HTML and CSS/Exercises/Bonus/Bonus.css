@@ -1,0 +1,63 @@
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #7ad8f7;
+    color: white;
+}
+
+/* Section headings */
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #25c6fc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #7ad8f7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Source Code Pro', Arial, sans-serif;
+}
+
+/* Font loading for Source Code Pro */
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('SourceCodePro-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic; /* Specifying font style */
+}

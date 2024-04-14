@@ -1,0 +1,198 @@
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    width: 1700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.title, .review h3 {
+    color:#fff200;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Determination';
+   
+}
+
+.OV {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    
+    
+}
+.OV1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.OV2 {
+    width: 1700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 19px;
+}
+
+
+.imdb {
+    background-color: #F5C518;
+    margin-top: 20px;
+    height: 20px;
+    padding: 0px;
+    color: black;
+    font-size: 1.05em;
+}
+
+.POV {
+    
+    width: 1700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 19px;
+    
+}
+
+
+.plot {
+    margin: 0 auto;
+    width: 1730px;
+    height: 585px;
+    background-color:#2f162f;
+    border: solid #4f244f;
+    margin-bottom: 30px; /* Adds space below the div */
+}
+
+.plot hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid #4f244f; /* Style the horizontal rule */
+    margin: 20px 0; /* Add some space above and below the line */
+}
+
+
+.key {
+    margin: 0 auto;
+    width: 1730px;
+    height: 840px;
+    background-color:#2f162f;
+    border: solid #4f244f;
+    margin-bottom: 30px; /* Adds space below the div */
+}
+
+.key hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid #4f244f; /* Style the horizontal rule */
+    margin: 20px 0; /* Add some space above and below the line */
+}
+
+.key td {
+    font-size: 19px;
+    border: solid #4f244f 3px;
+    padding: 10px;
+}
+
+.char {
+    margin: 0 auto;
+    width: 1730px;
+    height: 760px;
+    background-color:#2f162f;
+    border: solid #4f244f;
+    margin-bottom: 30px; /* Adds space below the div */
+}
+
+.char hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid #4f244f; /* Style the horizontal rule */
+    margin: 20px 0; /* Add some space above and below the line */
+}
+
+.char td {
+    font-size: 19px;
+    border: solid #4f244f 3px;
+    padding: 10px;
+}
+.reviewdiv {
+    margin: 0 auto;
+    width: 1730px;
+    height: 1020px;
+    background-color:#2f162f;
+    border: solid #4f244f;
+    margin-bottom: 30px; /* Adds space below the div */
+}
+
+.reviewdiv hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid #4f244f; /* Style the horizontal rule */
+    margin: 20px 0; /* Add some space above and below the line */
+}
+
+.reviewdiv td {
+    font-size: 19px;
+    border: solid #4f244f 3px;
+    padding: 10px;
+}
+
+.review {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Determination';
+    src: url('determination.ttf') format('truetype');
+}
+
+p {
+    font-size: 15px;
+}
+
+
+nav {
+    background-color: #2f162f;
+    border: solid #4f244f;
+    text-align: center; /* Center the contents */
+    position: sticky; /* Make the navigation bar sticky */
+    top: 0; /* Stick the navigation bar to the top of the viewport */
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block; /* Display as block-level element */
+    text-align: center; /* Center the list items */
+    
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navi {
+    width: 100%;
+}
+.navi a:hover {
+    background-color: #4f244f;
+}
+

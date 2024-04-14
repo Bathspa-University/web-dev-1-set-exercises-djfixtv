@@ -1,0 +1,33 @@
+body {
+    background-color:gray;
+    color: white;
+    font-size: larger;
+    font-family:"Source Code Pro";
+}
+
+/* CSS for image container */
+.box {
+    width: 33%;
+    padding: 20px;
+}
+
+/* CSS filters for images */
+img {
+    filter:saturate(200%);
+}
+
+.cont {
+    display: flex;
+    
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('SourceCodePro-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic; /* Specifying font style */
+}
