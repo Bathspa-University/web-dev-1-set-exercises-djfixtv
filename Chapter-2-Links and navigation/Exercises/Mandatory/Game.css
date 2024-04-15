@@ -114,3 +114,16 @@ a {
     background-color: #4f244f;
 }
 
+body { 
+    overflow-y: hidden;
+}
+
+#spacer { 
+    height: 55px;
+}
+
+#container { 
+    overflow-y: scroll; 
+    height: calc(100vh - 105px); 
+    padding-bottom: 50px; 
+}
