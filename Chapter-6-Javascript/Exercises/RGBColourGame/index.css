@@ -105,6 +105,7 @@ h1 {
     transition: 0.2s;
     cursor: pointer;
     border: 5px solid #fff;
+    user-select: none;
 }
 
 #reroll-btn:hover {
