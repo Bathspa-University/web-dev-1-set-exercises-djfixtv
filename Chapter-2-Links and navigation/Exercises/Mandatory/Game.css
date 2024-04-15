@@ -18,6 +18,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Determination';
+    margin: 0;
 }
 
 .OV, .OV1 {
@@ -79,11 +80,11 @@ p {
 
 nav {
     background-color: #2f162f;
-    border: solid #4f244f;
+    border: solid #4f244f 3px;
     text-align: center;
-    position: sticky;
+    position: fixed;
     top: 0;
-    width: 100%;
+    width: calc(100% - 6px);
 }
 
 ul {
@@ -112,3 +113,4 @@ a {
 .navi a:hover {
     background-color: #4f244f;
 }
+
