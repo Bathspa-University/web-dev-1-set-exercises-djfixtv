@@ -58,6 +58,10 @@ body {
     background-color: #fffb80;
 }
 
+.box2 img {
+    width: 100%;
+}
+
 /* Font loading for Platypi */
 @font-face {
     font-family: 'Platypi';
