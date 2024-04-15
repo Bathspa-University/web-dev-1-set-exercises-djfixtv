@@ -18,15 +18,15 @@ html, body {
 .box2 {
     border: solid #4f244f;
     background-color: #2f162f;
-    width: 25%;
-    max-width: 350px;
+    display: inline-block; /* Allow the container to shrink-wrap its content */
     padding: 20px;
-    height: 37%;
+    box-sizing: border-box; /* Include padding and border in the width */
 }
 
+
 .box3 {
-    font-size: 1.4em;
-    margin-top: 20px;
+    font-size: 140%;
+    
 }
 
 table {
