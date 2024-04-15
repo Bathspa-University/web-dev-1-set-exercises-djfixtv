@@ -1,23 +1,54 @@
 body {
-    background-color:gray;
+    background-color:rgb(94, 94, 94);
     color: white;
     font-size: larger;
     font-family:"Source Code Pro";
 }
 
 /* CSS for image container */
-.box {
+.box1 {
     width: 33%;
     padding: 20px;
+    filter: drop-shadow(0 0 10px black);
+    
+    
 }
 
-/* CSS filters for images */
-img {
+.box1 img {
+    filter: blur(2px);
+    
+}
+
+.box2 {
+    width: 33%;
+    padding: 20px;
+    filter: drop-shadow(0 0 10px black);
+    
+}
+
+.box2 img {
     filter:saturate(200%);
 }
 
+
+.box3 {
+    width: 33%;
+    padding: 20px;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.box3 img {
+     filter:grayscale(100%);
+}
+
+
 .cont {
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  
     
 }
 
@@ -30,4 +61,8 @@ img {
     font-family: 'Source Code Pro';
     src: url('SourceCodePro-Italic-VariableFont_wght.ttf') format('truetype');
     font-style: italic; /* Specifying font style */
+}
+
+p {
+    filter: drop-shadow(0 0 10px black);
 }

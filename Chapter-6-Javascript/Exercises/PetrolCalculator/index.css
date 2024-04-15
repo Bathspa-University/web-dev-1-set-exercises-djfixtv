@@ -1,12 +1,54 @@
 html, body {
-    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    background: black;
+    color: #fff;
+    font-family: "Determination";
+    text-align: center;
 }
 
-body {
-    background: #333;
-    color: #fff;
-    font-family: Arial;
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box2 {
+    border: solid #4f244f;
+    background-color: #2f162f;
+    width: 25%;
+    max-width: 350px;
+    padding: 20px;
+    height: 37%;
+}
+
+.box3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+table {
+    margin: 0 auto;
+    justify-items: center;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #4f244f;
+    margin: 10px 0;
+}
+
+@font-face {
+    font-family: 'Determination';
+    src: url('determination.ttf') format('truetype');
+}
+
+input {
+    font-family: "Determination";
+    background-color: #7b347b;
+    color: #fdd33b;
+    border: solid #4f244f;
+    font-size: 0.8em;
 }
